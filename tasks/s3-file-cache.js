@@ -7,7 +7,7 @@
  * AWS_SECRET_ACCESS_KEY
  *
  * To run:
- * node index.js s3-file-cache http://example.com/file.json file-name.json path/to/dir/
+ * node index.js s3-file-cache http://example.com/file.json file-name.json path/to/s3/dir/
  */
 var _ = require('underscore');
 var knox = require('knox');
